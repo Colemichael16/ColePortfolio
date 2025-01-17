@@ -21,9 +21,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import tesla from "./company/tesla.png";
+import phidelt from "./company/phidelt.png";
+import MAC from "./company/MAC.png";
+import mici from "./company/mici.png";
 import kingsoopers from "./company/kingsoopers.png";
 
 import carrent from "./carrent.png";
@@ -52,11 +52,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  tesla,
+  MAC,
+  mici,
   carrent,
   jobit,
   tripguide,
   kingsoopers,
+  phidelt,
 };
