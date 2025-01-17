@@ -16,7 +16,7 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
+  kingsoopers,
   tesla,
   shopify,
   carrent,
@@ -116,16 +116,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Cashier & Pickup Associate",
+    company_name: "King Soopers",
+    icon: kingsoopers,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "October 2018 - January 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Provided technical support to staff as the online pickup system was being implemented, troubleshooting software issues and improving workflow.",
+      "Trained staff on using the new online pickup software, addressing system challenges and enhancing team efficiency.",
+      "Assisted customers with online orders, ensuring a seamless shopping experience and resolving any issues that arose.",
+      "Managed the online pickup area, ensuring orders were ready for customers and maintaining a clean and organized workspace.",
     ],
   },
   {

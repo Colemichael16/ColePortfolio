@@ -59,7 +59,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          alert("Something went wrong. Please try again. If the problem persists, please contact me directly at business@cole-mclean.com");
         }
       );
   };
@@ -73,7 +73,7 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h3 className={styles.sectionHeadText}>Contact</h3>
 
         <form
           ref={formRef}
@@ -87,7 +87,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="Name"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -98,7 +98,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="Email"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -109,7 +109,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='Message'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
