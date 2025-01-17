@@ -26,7 +26,7 @@ import MAC from "./company/MAC.png";
 import mici from "./company/mici.png";
 import kingsoopers from "./company/kingsoopers.png";
 
-import carrent from "./carrent.png";
+import pterodactyl from "./pterodactyl.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -54,7 +54,7 @@ export {
   threejs,
   MAC,
   mici,
-  carrent,
+  pterodactyl,
   jobit,
   tripguide,
   kingsoopers,
