@@ -80,7 +80,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          As a student I am constantly working on projects, a few examples are below however I am always working on new projects and learning new technologies. I am always looking for new opportunities to learn and grow as a developer.
+          As a student I am constantly working on projects, a few examples are below however I am always working on new projects and learning new technologies. I am always looking for new opportunities to learn and grow as a developer. I also have my resume to download below as well.
         </motion.p>
       </div>
 

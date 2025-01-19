@@ -4,14 +4,11 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  python,
   html,
   css,
-  reactjs,
-  redux,
-  tailwind,
+  java,
   nodejs,
-  mongodb,
   git,
   figma,
   docker,
@@ -19,8 +16,8 @@ import {
   mici,
   phidelt,
   pterodactyl,
-  jobit,
-  tripguide,
+  resume,
+  gitweb,
   threejs,
   MAC,
 } from "../assets";
@@ -73,28 +70,16 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Python",
+    icon: python,
   },
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
@@ -169,32 +154,32 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+//const testimonials = [
+//  {
+//    testimonial:
+//      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+//    name: "Sara Lee",
+//    designation: "CFO",
+//    company: "Acme Co",
+//    image: "https://randomuser.me/api/portraits/women/4.jpg",
+//  },
+//  {
+//    testimonial:
+//      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+//    name: "Chris Brown",
+//    designation: "COO",
+//    company: "DEF Corp",
+//    image: "https://randomuser.me/api/portraits/men/5.jpg",
+//  },
+//  {
+//    testimonial:
+//      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+//    name: "Lisa Wang",
+//    designation: "CTO",
+//    company: "456 Enterprises",
+//    image: "https://randomuser.me/api/portraits/women/6.jpg",
+//  },
+//];
 
 const projects = [
   {
@@ -211,7 +196,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "React",
+        name: "react",
         color: "pink-text-gradient",
       },
     ],
@@ -219,47 +204,39 @@ const projects = [
     source_code_link: "https://panel.prisimry.org",
   },
   {
-    name: "Job IT",
+    name: "Resume Download",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "To download my resume, click the link at the top right",
     tags: [
       {
-        name: "react",
+        name: "resume",
         color: "blue-text-gradient",
       },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: resume,
+    source_code_link: "https://drive.google.com/uc?export=download&id=1v8-9RIOrybgWSxgqaTU15nGsuuRjOaNR",
   },
   {
-    name: "Trip Guide",
+    name: "Github",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "My github page, where you can see all of my projects and contributions",
     tags: [
       {
-        name: "nextjs",
+        name: "java",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: gitweb,
+    source_code_link: "https://github.com/Colemichael16",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
