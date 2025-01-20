@@ -7,9 +7,6 @@ Welcome to the 3D Developer Portfolio project! This project showcases a develope
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -27,8 +24,8 @@ This project aims to provide a unique way to present a developer's portfolio by 
 To get started with this project, clone the repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/yourusername/project_3D_developer_portfolio.git
-cd project_3D_developer_portfolio
+git clone https://github.com/Colemichael16/ColePortfolio
+cd ColePortfolio
 npm install
 ```
 
@@ -37,7 +34,7 @@ npm install
 To run the project locally, use the following command:
 
 ```bash
-npm start
+npm run dev
 ```
 
-Open your browser and navigate to `http://localhost:3000` to view the portfolio.
+Click on the link in terminal to view it!
