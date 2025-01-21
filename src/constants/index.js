@@ -29,7 +29,11 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Work", // Could add a resume download button in the future when it comes to it but included it in the three sections since it is more organized for me
+  },
+  {
+    id: "projects",
+    title: "Projects & Resume",
   },
   {
     id: "contact",
@@ -39,7 +43,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "IT Technical Support",
+    title: "IT Support",
     icon: web,
   },
   {
@@ -55,7 +59,7 @@ const services = [
     icon: creator,
   },
 ];
-
+ //Orbs
 const technologies = [
   {
     name: "HTML 5",
@@ -112,7 +116,7 @@ const experiences = [
       "Assisted customers with online orders, ensuring a seamless shopping experience and resolving any issues that arose.",
       "Managed the online pickup area, ensuring orders were ready for customers and maintaining a clean and organized workspace.",
     ],
-  },
+  }, //Take down Mici or king soopers hopefully by the end of this year.
   {
     title: "Delivery Driver",
     company_name: "Mici Handcrafted Italian",
@@ -154,6 +158,7 @@ const experiences = [
   },
 ];
 
+//Will have this finished when I get my own testimonials from clients if not add something else interesting
 //const testimonials = [
 //  {
 //    testimonial:
@@ -181,6 +186,7 @@ const experiences = [
 //  },
 //];
 
+//Update this eventually because I need MORE PROJECTS!! YES! MORE PROJECTS!
 const projects = [
   {
     name: "Pterodactyl Webserver",

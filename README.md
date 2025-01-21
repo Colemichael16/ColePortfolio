@@ -1,16 +1,14 @@
-# Project 3D Developer Portfolio
+# Cole McLean Portfolio
 
-Welcome to the 3D Developer Portfolio project! This project showcases a developer's portfolio using 3D elements to create an engaging and interactive experience.
+Welcome to my 3D Portfolio project! This project showcases my portfolio using 3D elements to create an engaging and interactive experience.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-
-## Introduction
-
-This project aims to provide a unique way to present a developer's portfolio by incorporating 3D elements. It includes sections for showcasing projects, skills, and contact information.
+- [Cole McLean Portfolio](#cole-mclean-portfolio)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Usage](#usage)
 
 ## Features
 
