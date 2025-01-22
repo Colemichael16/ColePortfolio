@@ -17,6 +17,7 @@ const Computers = ({ isMobile }) => {
         intensity={1}
         castShadow
         shadow-mapSize={1024}
+        
       />
       <pointLight intensity={1} />
       <primitive
