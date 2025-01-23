@@ -47,10 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-      I am a student at the University of Colorado Boulder pursuing a degree in Information Science. With a strong passion for web development, IT, and server engineering, 
-      I have gained hands-on experience in a variety of technologies including Python, Java, Node.js, and Three.js.
-      As a quick learner and collaborative team player, I thrive on creating innovative and impactful projects. 
-      I am always seeking opportunities to expand my knowledge and skill set, and I’m eager to contribute to dynamic, forward-thinking teams.
+I am a student at the University of Colorado Boulder pursuing a degree in Information Science. 
+I have a strong passion for web development, IT, and server engineering. 
+Additionally, I completed 2 years of flight training, earning my private pilot's license and drone certification. 
+I have hands-on experience with technologies such as Python, Java, Node.js, and Three.js. As a quick learner and collaborative team player, I thrive on creating innovative and impactful projects. 
+I am always seeking opportunities to expand my knowledge and contribute to dynamic, forward-thinking teams.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
