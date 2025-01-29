@@ -24,6 +24,7 @@ const Computers = ({ isMobile }) => {
         position={isMobile ? [-0.6, -3.5, -1] : [0.3, -3, -1.5]} //0, -3.25, -1.5
         rotation={isMobile ? [0,1,0] : [-0.01, -0.2, -0.1]}
       />
+      {!isMobile && <OrbitControls enableZoom={false} target={[0, 0, 0]} />}
     </mesh>
   );
 };
@@ -56,7 +57,6 @@ const ComputersCanvas = () => {
     <Canvas>
       <Suspense fallback={<CanvasLoader />}>
         <PerspectiveCamera makeDefault position={[1, 0, 2]} />
-        <OrbitControls enableZoom={false} target={[0, 0, 0]} />
         <Computers isMobile={isMobile} />
         <Preload all />
       </Suspense>
