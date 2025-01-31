@@ -63,6 +63,8 @@ const ComputersCanvas = () => {
           enablePan={false} 
           maxPolarAngle={Math.PI / 2.5} 
           minPolarAngle={Math.PI / 2.8}
+          maxAzimuthAngle={Math.PI / 4} 
+          minAzimuthAngle={-Math.PI / 10} 
         />
         <Computers isMobile={isMobile} />
         <Preload all />
