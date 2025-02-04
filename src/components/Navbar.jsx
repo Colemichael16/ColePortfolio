@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { FaLinkedin, FaFacebook, FaGithub } from "react-icons/fa";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
@@ -62,6 +63,18 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
+        <div className='hidden sm:flex flex-row gap-4'>
+          <a href="https://www.linkedin.com/in/cole-mclean/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin className='text-white text-[24px] hover:text-blue-500' />
+          </a>
+          <a href="https://www.facebook.com/cole.mclean07" target="_blank" rel="noopener noreferrer">
+            <FaFacebook className='text-white text-[24px] hover:text-blue-700' />
+          </a>
+          <a href="https://github.com/Colemichael16" target="_blank" rel="noopener noreferrer">
+            <FaGithub className='text-white text-[24px] hover:text-blue-400' />
+          </a>
+        </div>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
