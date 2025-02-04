@@ -210,17 +210,17 @@ const projects = [
     source_code_link: "https://panel.prisimry.org",
   },
   {
-    name: "Resume Download",
+    name: "CV Download",
     description:
-      "To download my resume, click the link at the top right",
+      "To download my CV, click the link at the top right",
     tags: [
       {
-        name: "resume",
+        name: "CV",
         color: "blue-text-gradient",
       },
     ],
     image: resume,
-    source_code_link: "https://drive.google.com/uc?export=download&id=1-4IExyjg4UGPoxsJYWJJmzwJ2X4K8JZG",
+    source_code_link: "https://drive.google.com/uc?export=download&id=16EilNI3WQp8rUDMAvOz8Lbhir7BxDojD",
   },
   {
     name: "Github",
