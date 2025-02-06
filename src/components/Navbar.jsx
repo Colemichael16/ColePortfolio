@@ -66,13 +66,13 @@ const Navbar = () => {
 
         <div className='hidden sm:flex flex-row gap-4'>
           <a href="https://www.linkedin.com/in/cole-mclean/" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin className='text-white text-[24px] hover:text-blue-500' />
+            <FaLinkedin className='text-white text-[24px] hover:text-blue-500' alt='LinkedIn' />
           </a>
           <a href="https://www.facebook.com/cole.mclean07" target="_blank" rel="noopener noreferrer">
-            <FaFacebook className='text-white text-[24px] hover:text-blue-700' />
+            <FaFacebook className='text-white text-[24px] hover:text-blue-700' alt='Facebook' />
           </a>
           <a href="https://github.com/Colemichael16" target="_blank" rel="noopener noreferrer">
-            <FaGithub className='text-white text-[24px] hover:text-blue-400' />
+            <FaGithub className='text-white text-[24px] hover:text-blue-400' alt='Github' />
           </a>
         </div>
 
