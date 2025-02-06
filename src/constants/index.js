@@ -191,7 +191,7 @@ const projects = [
   {
     name: "Pterodactyl Webserver",
     description:
-      "A web-based control panel for managing game servers, built with PHP and React.",
+      "A web-based control panel for managing game servers, currently deployed on my personal server and hosting this website.",
     tags: [
       {
         name: "PHP",
