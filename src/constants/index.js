@@ -212,7 +212,7 @@ const projects = [
   {
     name: "CV Download",
     description:
-      "To download my CV, click the link at the top right",
+      "You can download my CV from the top right corner if you prefer a more detailed overview.",
     tags: [
       {
         name: "CV",
@@ -223,25 +223,17 @@ const projects = [
     source_code_link: "https://drive.google.com/uc?export=download&id=16EilNI3WQp8rUDMAvOz8Lbhir7BxDojD",
   },
   {
-    name: "Github",
+    name: "Resume Download",
     description:
-      "My github page, where you can see all of my projects and contributions",
+      "You can download my resume from the top right corner for a more concise overview.",
     tags: [
       {
-        name: "java",
+        name: "Resume",
         color: "blue-text-gradient",
-      },
-      {
-        name: "python",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
       },
     ],
     image: gitweb,
-    source_code_link: "https://github.com/Colemichael16",
+    source_code_link: "https://drive.google.com/uc?export=download&id=1-4IExyjg4UGPoxsJYWJJmzwJ2X4K8JZG",
   },
 ];
 
