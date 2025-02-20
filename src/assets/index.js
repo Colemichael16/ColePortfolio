@@ -18,6 +18,7 @@ import reactjs from "./tech/reactjs.png";
 import threejs from "./tech/threejs.png";
 import python from "./tech/python.png";
 import java from "./tech/java.png";
+import ubuntu from "./tech/ubuntu.png";
 
 import phidelt from "./company/phidelt.png";
 import MAC from "./company/MAC.png";
@@ -55,4 +56,5 @@ export {
   gitweb,
   kingsoopers,
   phidelt,
+  ubuntu,
 };

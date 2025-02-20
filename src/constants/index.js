@@ -20,6 +20,7 @@ import {
   gitweb,
   threejs,
   MAC,
+  ubuntu,
 } from "../assets";
 
 export const navLinks = [
@@ -100,6 +101,10 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "ubuntu",
+    icon: ubuntu,
   },
 ];
 
@@ -233,7 +238,7 @@ const projects = [
       },
     ],
     image: gitweb,
-    source_code_link: "https://drive.google.com/uc?export=download&id=1-4IExyjg4UGPoxsJYWJJmzwJ2X4K8JZG",
+    source_code_link: "https://drive.google.com/uc?export=download&id=1EeaISI_WgXunXxpm9Bu57x-5EUd5cIBZ",
   },
 ];
 
