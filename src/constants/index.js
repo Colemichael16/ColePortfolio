@@ -21,6 +21,7 @@ import {
   threejs,
   MAC,
   ubuntu,
+  reactjs,
 } from "../assets";
 
 export const navLinks = [
@@ -105,6 +106,10 @@ const technologies = [
   {
     name: "ubuntu",
     icon: ubuntu,
+  },
+  {
+    name: "react",
+    icon: reactjs,
   },
 ];
 
