@@ -22,6 +22,7 @@ import {
   MAC,
   ubuntu,
   reactjs,
+  cu,
 } from "../assets";
 
 export const navLinks = [
@@ -164,6 +165,19 @@ const experiences = [
       "Assisted in the development and implementation of a new CRM system, improving data management and client communication.",
       "Successfully guided the company to shift the majority of its workflow online, implementing tools as said above and conducted training sessions to improve operational efficiency.",
       "Provided ongoing technical support and resources to ensure smooth adaptation of new digital tools.",
+    ],
+  },
+  {
+    title: "CU Boulder IT Support",
+    company_name: "University of Colorado Boulder",
+    icon: cu,
+    iconBg: "#E6DEDD",
+    date: "March 2024 - Current",
+    points: [
+      "Currently working as a student IT support specialist for the University of Colorado Boulder.",
+      "Providing technical support to students, faculty, and staff, troubleshooting software and hardware",
+      "Assisting with the deployment and maintenance of computer systems and peripherals.",
+      "Collaborating with team members to address technical issues and improve IT services for the campus community.",
     ],
   },
 ];
