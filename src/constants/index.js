@@ -116,42 +116,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Cashier & Pickup Associate",
-    company_name: "King Soopers",
-    icon: kingsoopers,
-    iconBg: "#E6DEDD", // Dark is 383E56, Light is E6DEDD
-    date: "October 2018 - January 2022",
-    points: [
-      "Provided technical support to staff as the online pickup system was being implemented, troubleshooting software issues and improving workflow.",
-      "Trained staff on using the new online pickup software, addressing system challenges and enhancing team efficiency.",
-      "Assisted customers with online orders, ensuring a seamless shopping experience and resolving any issues that arose.",
-      "Managed the online pickup area, ensuring orders were ready for customers and maintaining a clean and organized workspace.",
-    ],
-  }, //Take down Mici or king soopers hopefully by the end of this year.
-  {
-    title: "Delivery Driver",
-    company_name: "Mici Handcrafted Italian",
-    icon: mici,
+    title: "IT Help Desk and A/V Student Technician",
+    company_name: "University of Colorado Boulder",
+    icon: cu,
     iconBg: "#E6DEDD",
-    date: "Jan 2022 - September 2022",
+    date: "March 2024 - Current",
     points: [
-      "Delivered food orders to customers in a timely and professional manner, ensuring customer satisfaction and repeat business.",
-      "Provided excellent customer service, addressing customer concerns and resolving issues to ensure a positive experience.",
-      "Maintained a clean and organized delivery vehicle, ensuring food safety and compliance with company standards.",
-      "Collaborated with team members to coordinate delivery schedules and optimize delivery routes for efficiency.",
-    ],
-  },
-  {
-    title: "Risk Manager",
-    company_name: "Phi Delta Theta",
-    icon: phidelt,
-    iconBg: "#E6DEDD",
-    date: "September 2022 - July 2024",
-    points: [
-      "Organized and coordinated social events, balancing fraternity traditions with responsible event planning.",
-      "Managed risk and liability for the fraternity, ensuring compliance with university policies and local laws.",
-      "Developed and implemented risk management strategies to promote a safe and inclusive environment for all members.",
-      "Collaborated with other officers and advisors to address risk management concerns and improve chapter operations.",
+      "Currently working as a student IT support specialist for the University of Colorado Boulder.",
+      "Providing technical support to students, faculty, and staff, troubleshooting software and hardware",
+      "Assisting with the deployment and maintenance of computer systems and peripherals.",
+      "Collaborating with team members to address technical issues and improve IT services for the campus community.",
     ],
   },
   {
@@ -168,18 +142,44 @@ const experiences = [
     ],
   },
   {
-    title: "CU Boulder IT Support",
-    company_name: "University of Colorado Boulder",
-    icon: cu,
+    title: "Risk Manager",
+    company_name: "Phi Delta Theta",
+    icon: phidelt,
     iconBg: "#E6DEDD",
-    date: "March 2024 - Current",
+    date: "September 2022 - July 2024",
     points: [
-      "Currently working as a student IT support specialist for the University of Colorado Boulder.",
-      "Providing technical support to students, faculty, and staff, troubleshooting software and hardware",
-      "Assisting with the deployment and maintenance of computer systems and peripherals.",
-      "Collaborating with team members to address technical issues and improve IT services for the campus community.",
+      "Organized and coordinated social events, balancing fraternity traditions with responsible event planning.",
+      "Managed risk and liability for the fraternity, ensuring compliance with university policies and local laws.",
+      "Developed and implemented risk management strategies to promote a safe and inclusive environment for all members.",
+      "Collaborated with other officers and advisors to address risk management concerns and improve chapter operations.",
     ],
   },
+  {
+    title: "Delivery Driver",
+    company_name: "Mici Handcrafted Italian",
+    icon: mici,
+    iconBg: "#E6DEDD",
+    date: "Jan 2022 - September 2022",
+    points: [
+      "Delivered food orders to customers in a timely and professional manner, ensuring customer satisfaction and repeat business.",
+      "Provided excellent customer service, addressing customer concerns and resolving issues to ensure a positive experience.",
+      "Maintained a clean and organized delivery vehicle, ensuring food safety and compliance with company standards.",
+      "Collaborated with team members to coordinate delivery schedules and optimize delivery routes for efficiency.",
+    ],
+  },
+  {
+    title: "Cashier & Pickup Associate",
+    company_name: "King Soopers",
+    icon: kingsoopers,
+    iconBg: "#E6DEDD", // Dark is 383E56, Light is E6DEDD
+    date: "October 2018 - January 2022",
+    points: [
+      "Provided technical support to staff as the online pickup system was being implemented, troubleshooting software issues and improving workflow.",
+      "Trained staff on using the new online pickup software, addressing system challenges and enhancing team efficiency.",
+      "Assisted customers with online orders, ensuring a seamless shopping experience and resolving any issues that arose.",
+      "Managed the online pickup area, ensuring orders were ready for customers and maintaining a clean and organized workspace.",
+    ],
+  }, //Take down Mici or king soopers hopefully by the end of this year.
 ];
 
 //Will have this finished when I get my own testimonials from clients if not add something else interesting
