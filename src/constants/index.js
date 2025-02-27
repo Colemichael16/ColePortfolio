@@ -129,7 +129,7 @@ const experiences = [
     ],
   },
   {
-    title: "Digitial Transformation Intern",
+    title: "Digital Transformation Intern",
     company_name: "Mac Insurance",
     icon: MAC,
     iconBg: "#E6DEDD",
@@ -179,7 +179,7 @@ const experiences = [
       "Assisted customers with online orders, ensuring a seamless shopping experience and resolving any issues that arose.",
       "Managed the online pickup area, ensuring orders were ready for customers and maintaining a clean and organized workspace.",
     ],
-  }, //Take down Mici or king soopers hopefully by the end of this year.
+  },
 ];
 
 //Will have this finished when I get my own testimonials from clients if not add something else interesting
@@ -210,7 +210,7 @@ const experiences = [
 //  },
 //];
 
-//Update this eventually because I need MORE PROJECTS!! YES! MORE PROJECTS!
+// Additional projects will be added in the future.
 const projects = [
   {
     name: "Pterodactyl Webserver",
@@ -249,7 +249,7 @@ const projects = [
   {
     name: "Resume Download",
     description:
-      "You can download my resume from the top right corner for a more concise overview.",
+      "You can download my resume from the top right corner for a more concise overview.", 
     tags: [
       {
         name: "Resume",
