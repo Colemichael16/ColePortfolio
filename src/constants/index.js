@@ -23,6 +23,7 @@ import {
   ubuntu,
   reactjs,
   cu,
+  vizient,
 } from "../assets";
 
 export const navLinks = [

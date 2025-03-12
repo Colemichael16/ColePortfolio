@@ -25,6 +25,7 @@ import MAC from "./company/MAC.png";
 import mici from "./company/mici.png";
 import kingsoopers from "./company/kingsoopers.png";
 import cu from "./company/cu.png";
+import vizient from "./company/vizient.png";
 
 import pterodactyl from "./pterodactyl.png";
 import resume from "./resume.png";
@@ -59,4 +60,5 @@ export {
   phidelt,
   ubuntu,
   cu,
+  vizient,
 };
