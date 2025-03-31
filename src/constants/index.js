@@ -168,19 +168,19 @@ const experiences = [
       "Collaborated with team members to coordinate delivery schedules and optimize delivery routes for efficiency.",
     ],
   },
-  {
-    title: "Cashier & Pickup Associate",
-    company_name: "King Soopers",
-    icon: kingsoopers,
-    iconBg: "#E6DEDD", // Dark is 383E56, Light is E6DEDD
-    date: "October 2018 - January 2022",
-    points: [
-      "Provided technical support to staff as the online pickup system was being implemented, troubleshooting software issues and improving workflow.",
-      "Trained staff on using the new online pickup software, addressing system challenges and enhancing team efficiency.",
-      "Assisted customers with online orders, ensuring a seamless shopping experience and resolving any issues that arose.",
-      "Managed the online pickup area, ensuring orders were ready for customers and maintaining a clean and organized workspace.",
-    ],
-  },
+//  {
+//    title: "Cashier & Pickup Associate",
+//    company_name: "King Soopers",
+//    icon: kingsoopers,
+//    iconBg: "#E6DEDD", // Dark is 383E56, Light is E6DEDD
+//    date: "October 2018 - January 2022",
+//    points: [
+//      "Provided technical support to staff as the online pickup system was being implemented, troubleshooting software issues and improving workflow.",
+//      "Trained staff on using the new online pickup software, addressing system challenges and enhancing team efficiency.",
+//      "Assisted customers with online orders, ensuring a seamless shopping experience and resolving any issues that arose.",
+//      "Managed the online pickup area, ensuring orders were ready for customers and maintaining a clean and organized workspace.",
+//    ],
+//  },
 ];
 
 //Will have this finished when I get my own testimonials from clients if not add something else interesting
