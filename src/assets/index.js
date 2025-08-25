@@ -19,8 +19,6 @@ import threejs from "./tech/threejs.png";
 import python from "./tech/python.png";
 import java from "./tech/java.png";
 import ubuntu from "./tech/ubuntu.png";
-import powerapps from "./tech/powerapps.png";
-import powerautomate from "./tech/powerautomate.png";
 
 import phidelt from "./company/phidelt.png";
 import MAC from "./company/MAC.png";
@@ -32,7 +30,6 @@ import vizient from "./company/vizient.png";
 import pterodactyl from "./pterodactyl.png";
 import resume from "./resume.png";
 import gitweb from "./gitweb.png";
-import producttoolbox from "./ProductToolBox.png";
 
 export {
   python,
@@ -64,7 +61,4 @@ export {
   ubuntu,
   cu,
   vizient,
-  powerapps,
-  powerautomate,
-  producttoolbox
 };
