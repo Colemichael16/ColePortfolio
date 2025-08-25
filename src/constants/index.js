@@ -283,7 +283,7 @@ const projects = [
       },
     ],
     image: producttoolbox,
-    source_code_link: "/producttoolbox.png",
+    source_code_link: producttoolbox,
   },
   {
     name: "Resume Download",
