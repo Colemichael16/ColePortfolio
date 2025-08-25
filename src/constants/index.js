@@ -123,7 +123,12 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2025 - August 2025",
     points: [
-      "Will be working as a Corporate IT Intern for Vizient this summer."
+      "Developed an Application using Microsoft Power Apps & Power Automate",
+      "Collaborated with cross-functional teams to gather requirements and design user-friendly interfaces.",
+      "Developed a system to transfer data between SQL Server and Sharepoint using Power Automate",
+      "Finished documentation and user training materials for the application.",
+      "Published V1 of the application to the company intranet. Titled 'Product Toolbox'",
+      "Product Toolbox is a public database for users to find approved and unapproved applications within the company."
     ],
   },
   {
@@ -237,7 +242,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "react",
+        name: "React",
         color: "pink-text-gradient",
       },
     ],
@@ -245,17 +250,17 @@ const projects = [
     source_code_link: "https://panel.prisimry.org",
   },
   {
-    name: "CV Download",
+    name: "Product Toolbox",
     description:
-      "You can download my CV from the top right corner if you prefer a more detailed overview.",
+      "A paper talking about this project I worked on with Vizient.",
     tags: [
       {
-        name: "CV",
-        color: "blue-text-gradient",
+        name: "Vizient",
+        color: "orange-text-gradient",
       },
     ],
     image: resume,
-    source_code_link: "https://drive.google.com/uc?export=download&id=16EilNI3WQp8rUDMAvOz8Lbhir7BxDojD",
+    source_code_link: "https://docs.google.com/document/d/1dU4Tf4VQa9MgO74rSYoYGp-noWgvNYsIFO9pB_NZI60/edit?usp=sharing",
   },
   {
     name: "Resume Download",
