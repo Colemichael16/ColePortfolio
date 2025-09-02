@@ -146,7 +146,7 @@ const experiences = [
   },
   {
     title: "Digital Transformation Intern",
-    company_name: "MAC Insurance & Financial Services, Inc.",
+    company_name: "Mac Insurance",
     icon: MAC,
     iconBg: "#E6DEDD",
     date: "May 2024 - August 2024",
