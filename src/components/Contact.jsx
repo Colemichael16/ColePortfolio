@@ -6,9 +6,6 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-//template_wdefaae
-//service_zh0u7if
-//_UlBQRQeg-6EIU7u0
 
 const Contact = () => {
   const formRef = useRef();
@@ -36,8 +33,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_zh0u7if',
-        'template_wdefaae',
+        import.meta.env.VITE_EMAILJS_SERVICE,
+        import.meta.env.VITE_EMAILJS_TEMPLATE,
         {
           from_name: form.name,
           to_name: "Cole McLean",
@@ -45,7 +42,7 @@ const Contact = () => {
           to_email: "business@cole-mclean.com",
           message: form.message,
         },
-        '_UlBQRQeg-6EIU7u0'
+        import.meta.env.VITE_EMAILJS_PUBLIC
       )
       .then(
         () => {
