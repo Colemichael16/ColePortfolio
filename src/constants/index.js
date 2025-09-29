@@ -185,7 +185,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Cole made a strong impact during his internship at MAC Insurance & Financial Services, Inc. He quickly learned our financial softwares and helped us integrate them with each other, making our process smother with our customers. He consistenly demostrated professonalism, initaive, exicetment, with such a great attitude.",
+      "Cole made a strong impact during his internship at MAC Insurance & Financial Services, Inc. He quickly learned our financial softwares and helped us integrate them with each other, making our process smoother with our customers. He consistently demonstrated professionalism, initiative, excitement, with such a great attitude.",
     name: "Steve M.",
     designation: "CEO",
     company: "MAC Insurance & Financial Services, Inc.",
