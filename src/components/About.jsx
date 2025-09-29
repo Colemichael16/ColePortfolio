@@ -51,7 +51,7 @@ I am a student at the University of Colorado Boulder pursuing a degree in Inform
 I have a strong passion for web development, IT, and server engineering. 
 Additionally, I completed 2 years of flight training, earning my private pilot's license and drone certification. 
 I have hands-on experience with technologies such as Python, Java, Node.js, and Three.js. As a quick learner and collaborative team player, I thrive on creating innovative and impactful projects. 
-I am always seeking opportunities to expand my knowledge and contribute to dynamic, forward-thinking teams.
+I am always seeking opportunities to expand my knowledge and contribute to dynamic, forward-thinking teams. Feel free to download my resume by clicking the icon at the top right.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

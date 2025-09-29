@@ -1,4 +1,3 @@
-//Feedback template for later use
 import React from "react";
 import { motion } from "framer-motion";
 

@@ -4,7 +4,7 @@ import { FaLinkedin, FaFacebook, FaGithub, } from "react-icons/fa";
 import { ImProfile } from "react-icons/im";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close, portfolio } from "../assets";
+import { logo, menu, close, resume } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -74,7 +74,7 @@ const Navbar = () => {
           <a href="https://github.com/Colemichael16" target="_blank" rel="noopener noreferrer" aria-label="Github Profile" title="Github Profile">
             <FaGithub className='text-white text-[24px] hover:text-blue-400' alt='Github' />
           </a>
-          <a href={portfolio} target="_blank" rel="noopener noreferrer" aria-label="Download Resume" title="Download Resume">
+          <a href={resume} target="_blank" rel="noopener noreferrer" aria-label="Download Resume" title="Download Resume">
             <ImProfile className='text-white text-[24px] hover:text-green-500' alt='Resume' />
           </a>
         </div>

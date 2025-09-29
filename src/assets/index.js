@@ -9,7 +9,6 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -19,13 +18,9 @@ import threejs from "./tech/threejs.png";
 import python from "./tech/python.png";
 import java from "./tech/java.png";
 import ubuntu from "./tech/ubuntu.png";
-import powerautomate from "./tech/powerautomate.png";
-import powerapps from "./tech/powerapps.png";
 
 import phidelt from "./company/phidelt.png";
 import MAC from "./company/MAC.png";
-import mici from "./company/mici.png";
-import kingsoopers from "./company/kingsoopers.png";
 import cu from "./company/cu.png";
 import vizient from "./company/vizient.png";
 
@@ -34,10 +29,10 @@ import steve from "./steve.jpg";
 import andy from "./andy.jpg";
 
 import pterodactyl from "./pterodactyl.png";
-import resume from "./resume.png";
-import gitweb from "./gitweb.png";
+import placemat from "./placemat.png";
+import website from "./website.png";
 
-import portfolio from "./Cole McLean - Resume.pdf";
+import resume from "./Cole McLean - Resume.pdf";
 
 export {
   python,
@@ -52,7 +47,6 @@ export {
   close,
   css,
   docker,
-  figma,
   git,
   html,
   javascript,
@@ -60,11 +54,9 @@ export {
   reactjs,
   threejs,
   MAC,
-  mici,
   pterodactyl,
-  resume,
-  gitweb,
-  kingsoopers,
+  placemat,
+  website,
   phidelt,
   ubuntu,
   cu,
@@ -72,7 +64,5 @@ export {
   mitch,
   steve,
   andy,
-  powerautomate,
-  powerapps,
-  portfolio,
+  resume,
 };

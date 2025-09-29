@@ -10,14 +10,11 @@ import {
   java,
   nodejs,
   git,
-  figma,
   docker,
-  kingsoopers,
-  mici,
   phidelt,
   pterodactyl,
-  resume,
-  gitweb,
+  placemat,
+  website,
   threejs,
   MAC,
   ubuntu,
@@ -27,8 +24,6 @@ import {
   mitch,
   steve,
   andy,
-  powerapps,
-  powerautomate,
 } from "../assets";
 
 export const navLinks = [
@@ -38,11 +33,11 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work", // Could add a resume download button in the future when it comes to it but included it in the three sections since it is more organized for me
+    title: "Work",
   },
   {
     id: "projects",
-    title: "Projects & Resume",
+    title: "Projects",
   },
   {
     id: "feedbacks",
@@ -175,32 +170,6 @@ const experiences = [
       "Collaborated with other officers and advisors to address risk management concerns and improve chapter operations.",
     ],
   },
-//  {
-//    title: "Delivery Driver",
-//    company_name: "Mici Handcrafted Italian",
-//    icon: mici,
-//    iconBg: "#E6DEDD",
-//    date: "Jan 2022 - September 2022",
-//    points: [
-//      "Delivered food orders to customers in a timely and professional manner, ensuring customer satisfaction and repeat business.",
-//      "Provided excellent customer service, addressing customer concerns and resolving issues to ensure a positive experience.",
-//      "Maintained a clean and organized delivery vehicle, ensuring food safety and compliance with company standards.",
-//      "Collaborated with team members to coordinate delivery schedules and optimize delivery routes for efficiency.",
-//    ],
-//  },
-//  {
-//    title: "Cashier & Pickup Associate",
-//    company_name: "King Soopers",
-//    icon: kingsoopers,
-//    iconBg: "#E6DEDD", // Dark is 383E56, Light is E6DEDD
-//    date: "October 2018 - January 2022",
-//    points: [
-//      "Provided technical support to staff as the online pickup system was being implemented, troubleshooting software issues and improving workflow.",
-//      "Trained staff on using the new online pickup software, addressing system challenges and enhancing team efficiency.",
-//      "Assisted customers with online orders, ensuring a seamless shopping experience and resolving any issues that arose.",
-//      "Managed the online pickup area, ensuring orders were ready for customers and maintaining a clean and organized workspace.",
-//    ],
-//  },
 ];
 
 //Will have this finished when I get my own testimonials from clients if not add something else interesting
@@ -239,7 +208,7 @@ const projects = [
   {
     name: "Pterodactyl Webserver",
     description:
-      "A web-based control panel for managing game servers, currently deployed on my personal server and hosting this website.",
+      "A web-based control panel for managing game servers, currently deployed on my personal server and hosting this website. Access it with username: test and password: password",
     tags: [
       {
         name: "PHP",
@@ -267,21 +236,21 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: resume,
+    image: placemat,
     source_code_link: "https://docs.google.com/document/d/1dU4Tf4VQa9MgO74rSYoYGp-noWgvNYsIFO9pB_NZI60/edit?usp=sharing",
   },
   {
-    name: "Resume Download",
+    name: "Website Portfolio",
     description:
-      "You can download my resume from the top right corner for a more concise overview.", 
+      "A website that showcases my work, skills, and experience over the last three years. Built using React, Tailwind, and Three.js.", 
     tags: [
       {
-        name: "Resume",
+        name: "Website",
         color: "blue-text-gradient",
       },
     ],
-    image: gitweb,
-    source_code_link: "https://drive.google.com/uc?export=download&id=1-4IExyjg4UGPoxsJYWJJmzwJ2X4K8JZG",
+    image: website,
+    source_code_link: "https://github.com/Colemichael16/ColePortfolio",
   },
 ];
 
