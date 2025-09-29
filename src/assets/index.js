@@ -37,6 +37,8 @@ import pterodactyl from "./pterodactyl.png";
 import resume from "./resume.png";
 import gitweb from "./gitweb.png";
 
+import portfolio from "./Cole McLean - Resume.pdf";
+
 export {
   python,
   java,
@@ -72,4 +74,5 @@ export {
   andy,
   powerautomate,
   powerapps,
+  portfolio,
 };
