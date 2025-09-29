@@ -24,6 +24,11 @@ import {
   reactjs,
   cu,
   vizient,
+  mitch,
+  steve,
+  andy,
+  powerapps,
+  powerautomate,
 } from "../assets";
 
 export const navLinks = [
@@ -38,6 +43,10 @@ export const navLinks = [
   {
     id: "projects",
     title: "Projects & Resume",
+  },
+  {
+    id: "feedbacks",
+    title: "Testimonials",
   },
   {
     id: "contact",
@@ -113,12 +122,20 @@ const technologies = [
     name: "react",
     icon: reactjs,
   },
+    {
+    name: "powerapps",
+    icon: powerapps,
+  },
+    {
+    name: "powerautomate",
+    icon: powerautomate,
+  },
 ];
 
 const experiences = [
   {
     title: "Corporate IT Intern",
-    company_name: "Vizient",
+    company_name: "Vizient Inc",
     icon: vizient,
     iconBg: "#E6DEDD",
     date: "June 2025 - August 2025",
@@ -199,32 +216,35 @@ const experiences = [
 ];
 
 //Will have this finished when I get my own testimonials from clients if not add something else interesting
-//const testimonials = [
+const testimonials = [
+  {
+    testimonial:
+      "What truly sets Cole apart is how he operates; he is focused, curious, perceptive, and always thinking one level deeper. He made a consistent impression (...) not only through the quality of his work but through the maturity and clarity he brought to every interaction. Engaged, adaptable, and already operating at a professional level. ",
+    name: "Mitch T.",
+    designation: "Sr. DEX Researcher",
+    company: "Vizient Inc.",
+    image: mitch,
+    linkedin:"https://www.linkedin.com/in/mitch-trychta/"
+  },
+  {
+    testimonial:
+      "Cole made a strong impact during his internship at MAC Insurance & Financial Services, Inc. He quickly learned our financial softwares and helped us integrate them with each other, making our process smother with our customers. He consistenly demostrated professonalism, initaive, exicetment, with such a great attitude.",
+    name: "Steve M.",
+    designation: "CEO",
+    company: "MAC Insurance & Financial Services, Inc.",
+    image: steve,
+    linkedin:"https://www.linkedin.com/in/steven-mclean-aif-a913a234/"
+  },
 //  {
 //    testimonial:
-//      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-//    name: "Sara Lee",
-//    designation: "CFO",
-//    company: "Acme Co",
-//    image: "https://randomuser.me/api/portraits/women/4.jpg",
+//      "Cole has been an essential part of our IT team, providing top-notch support and solutions. His technical skills are impressive, and he consistently goes above and beyond to ensure our systems run smoothly. Cole's dedication and problem-solving abilities make him a standout professional in the IT field.",
+//    name: "Andy K.",
+//    designation: "LTS Server Admin",
+//    company: "University Colorado Boulder.",
+//    image: andy,
+//    linkedin:"https://www.linkedin.com/in/andy-keenan-8458741/"
 //  },
-//  {
-//    testimonial:
-//      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-//    name: "Chris Brown",
-//    designation: "COO",
-//    company: "DEF Corp",
-//    image: "https://randomuser.me/api/portraits/men/5.jpg",
-//  },
-//  {
-//    testimonial:
-//      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-//    name: "Lisa Wang",
-//    designation: "CTO",
-//    company: "456 Enterprises",
-//    image: "https://randomuser.me/api/portraits/women/6.jpg",
-//  },
-//];
+];
 
 // Additional projects will be added in the future.
 const projects = [
@@ -277,4 +297,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects, testimonials };

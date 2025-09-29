@@ -46,7 +46,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Cole McLean&nbsp;
-            <span className='sm:block hidden'> | Information Science Student</span>
+            <span className='sm:block hidden'> | Info Sci Student</span>
           </p>
         </Link>
 

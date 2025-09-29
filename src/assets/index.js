@@ -19,6 +19,8 @@ import threejs from "./tech/threejs.png";
 import python from "./tech/python.png";
 import java from "./tech/java.png";
 import ubuntu from "./tech/ubuntu.png";
+import powerautomate from "./tech/powerautomate.png";
+import powerapps from "./tech/powerapps.png";
 
 import phidelt from "./company/phidelt.png";
 import MAC from "./company/MAC.png";
@@ -26,6 +28,10 @@ import mici from "./company/mici.png";
 import kingsoopers from "./company/kingsoopers.png";
 import cu from "./company/cu.png";
 import vizient from "./company/vizient.png";
+
+import mitch from "./mitch.jpg";
+import steve from "./steve.jpg";
+import andy from "./andy.jpg";
 
 import pterodactyl from "./pterodactyl.png";
 import resume from "./resume.png";
@@ -61,4 +67,9 @@ export {
   ubuntu,
   cu,
   vizient,
+  mitch,
+  steve,
+  andy,
+  powerautomate,
+  powerapps,
 };
