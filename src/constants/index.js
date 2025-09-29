@@ -122,14 +122,6 @@ const technologies = [
     name: "react",
     icon: reactjs,
   },
-    {
-    name: "powerapps",
-    icon: powerapps,
-  },
-    {
-    name: "powerautomate",
-    icon: powerautomate,
-  },
 ];
 
 const experiences = [
