@@ -68,9 +68,6 @@ const Navbar = () => {
           <a href="https://www.linkedin.com/in/cole-mclean/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" title="LinkedIn Profile">
             <FaLinkedin className='text-white text-[24px] hover:text-blue-500' alt='LinkedIn' />
           </a>
-          <a href="https://www.facebook.com/cole.mclean07" target="_blank" rel="noopener noreferrer" aria-label="Facebook Profile" title="Facebook Profile">
-            <FaFacebook className='text-white text-[24px] hover:text-blue-700' alt='Facebook' />
-          </a>
           <a href="https://github.com/Colemichael16" target="_blank" rel="noopener noreferrer" aria-label="Github Profile" title="Github Profile">
             <FaGithub className='text-white text-[24px] hover:text-blue-400' alt='Github' />
           </a>
