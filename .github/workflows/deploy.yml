@@ -30,7 +30,7 @@ jobs:
           username: ${{ secrets.SFTP_USER }}
           password: ${{ secrets.SFTP_PASS }}
           port: ${{ secrets.SFTP_PORT }}
-          local-dir: "./dist/*"
-          server-dir: "/webroot"
+          local-dir: "./dist/"
+          server-dir: "/webroot/"
           delete_remote_files: true
           sftp_only: true
