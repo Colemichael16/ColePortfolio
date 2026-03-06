@@ -32,3 +32,5 @@ jobs:
           port: ${{ secrets.SFTP_PORT }}
           local-dir: "./dist/*"
           server-dir: "/webroot"
+          delete_remote_files: true
+          sftp_only: true
