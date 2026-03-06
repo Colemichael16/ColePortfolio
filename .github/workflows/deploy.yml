@@ -1,15 +1,15 @@
-name: Deploy Portfolio
+name: deploy
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Node
@@ -20,17 +20,17 @@ jobs:
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
-      - name: Build site
+      - name: Build
         run: npm run build
 
-      - name: Upload dist to Pterodactyl
+      - name: Deploy to Pterodactyl
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
           server: ${{ secrets.SFTP_HOST }}
           username: ${{ secrets.SFTP_USER }}
           password: ${{ secrets.SFTP_PASS }}
           port: ${{ secrets.SFTP_PORT }}
-          local-dir: "./dist/"
-          server-dir: "/webroot/"
+          local_path: ./dist/
+          remote_path: /webroot/
           delete_remote_files: true
           sftp_only: true
