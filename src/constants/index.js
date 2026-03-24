@@ -242,7 +242,7 @@ const projects = [
   {
     name: "Website Portfolio",
     description:
-      "A website that showcases my work, skills, and experience over the last four years. Built using React, Tailwind, and Three.js. Feel free to explore the source code on GitHub!", 
+      "A website that showcases my work, skills, and experience over the last four years. Built using React, Tailwind, and Three.js. Feel free to explore (or clone) the source code on GitHub!", 
     tags: [
       {
         name: "Website",
