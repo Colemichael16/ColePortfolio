@@ -229,7 +229,7 @@ const projects = [
   {
     name: "Product Toolbox",
     description:
-      "A paper talking about this project I worked on with Vizient.",
+      "This project was done at Vizient to create an application using Microsoft Power Apps and Power Automate to create a public database for users to find approved and unapproved applications within the company. It is currently published on the company intranet.",
     tags: [
       {
         name: "Vizient",
@@ -242,7 +242,7 @@ const projects = [
   {
     name: "Website Portfolio",
     description:
-      "A website that showcases my work, skills, and experience over the last three years. Built using React, Tailwind, and Three.js.", 
+      "A website that showcases my work, skills, and experience over the last four years. Built using React, Tailwind, and Three.js. Feel free to explore the source code on GitHub!", 
     tags: [
       {
         name: "Website",
