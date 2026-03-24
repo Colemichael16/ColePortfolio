@@ -22,6 +22,10 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          VITE_EMAILJS_SERVICE: ${{ secrets.VITE_EMAILJS_SERVICE }}
+          VITE_EMAILJS_TEMPLATE: ${{ secrets.VITE_EMAILJS_TEMPLATE }}
+          VITE_EMAILJS_PUBLIC: ${{ secrets.VITE_EMAILJS_PUBLIC }}
 
       - name: Deploy to Pterodactyl
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
