@@ -219,7 +219,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "React",
+        name: "Web Hosting",
         color: "pink-text-gradient",
       },
     ],
