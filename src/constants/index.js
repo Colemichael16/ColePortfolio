@@ -117,7 +117,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Corporate IT Intern",
+    title: "Corporate IT Intern (Application Developer)",
     company_name: "Vizient Inc",
     icon: vizient,
     iconBg: "#E6DEDD",
