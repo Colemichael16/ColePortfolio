@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -6,6 +7,23 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+
+const Toast = ({ toast }) => createPortal(
+  <motion.div
+    initial={{ opacity: 0, y: -20 }}
+    animate={{ opacity: toast.show ? 1 : 0, y: toast.show ? 0 : -20 }}
+    transition={{ duration: 0.3 }}
+    className={`fixed top-6 right-6 z-[9999] flex items-start gap-3 px-5 py-4 rounded-xl shadow-lg border-l-4 bg-black-100 max-w-sm pointer-events-none ${
+      toast.type === "success" ? "border-[#915EFF]" : "border-red-500"
+    }`}
+  >
+    <span className={`text-lg mt-0.5 ${toast.type === "success" ? "text-[#915EFF]" : "text-red-400"}`}>
+      {toast.type === "success" ? "✓" : "✕"}
+    </span>
+    <p className='text-white text-sm leading-relaxed'>{toast.message}</p>
+  </motion.div>,
+  document.body
+);
 
 const Contact = () => {
   const formRef = useRef();
@@ -16,6 +34,12 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
+  const [toast, setToast] = useState({ show: false, message: "", type: "success" });
+
+  const showToast = (message, type) => {
+    setToast({ show: true, message, type });
+    setTimeout(() => setToast((t) => ({ ...t, show: false })), 5000);
+  };
 
   const handleChange = (e) => {
     const { target } = e;
@@ -29,6 +53,21 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!form.name.trim()) {
+      showToast("Please enter your name.", "error");
+      return;
+    }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!form.email.trim() || !emailRegex.test(form.email)) {
+      showToast("Please enter a valid email address.", "error");
+      return;
+    }
+    if (!form.message.trim()) {
+      showToast("Please enter a message.", "error");
+      return;
+    }
+
     setLoading(true);
 
     emailjs
@@ -47,7 +86,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          showToast("Thank you. I will get back to you as soon as possible.", "success");
 
           setForm({
             name: "",
@@ -59,12 +98,14 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Something went wrong. Please try again. If the problem persists, please contact me directly at business@cole-mclean.com");
+          showToast("Something went wrong. Please try again. If the problem persists, contact me directly at business@cole-mclean.com", "error");
         }
       );
   };
 
   return (
+    <>
+    <Toast toast={toast} />
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
@@ -130,6 +171,7 @@ const Contact = () => {
         <EarthCanvas />
       </motion.div>
     </div>
+    </>
   );
 };
 
