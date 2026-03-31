@@ -135,7 +135,7 @@ const Contact = () => {
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your email</span>
             <input
-              type='email'
+              type='text'
               name='email'
               value={form.email}
               onChange={handleChange}
