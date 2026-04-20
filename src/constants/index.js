@@ -136,7 +136,7 @@ const experiences = [
     company_name: "University of Colorado Boulder",
     icon: cu,
     iconBg: "#E6DEDD",
-    date: "March 2025 - Current",
+    date: "March 2025 - April 2026",
     points: [
       "Currently working as a student IT support specialist for the University of Colorado Boulder.",
       "Providing technical support to students, faculty, and staff, troubleshooting software and hardware",
