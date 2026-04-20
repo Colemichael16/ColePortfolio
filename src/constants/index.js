@@ -138,7 +138,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "March 2025 - April 2026",
     points: [
-      "Currently working as a student IT support specialist for the University of Colorado Boulder.",
+      "Worked as a student IT support specialist for the University of Colorado Boulder.",
       "Providing technical support to students, faculty, and staff, troubleshooting software and hardware",
       "Assisting with the deployment and maintenance of computer systems and peripherals.",
       "Collaborating with team members to address technical issues and improve IT services for the campus community.",
