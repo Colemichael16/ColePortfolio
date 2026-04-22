@@ -32,7 +32,7 @@ import pterodactyl from "./pterodactyl.png";
 import placemat from "./placemat.png";
 import website from "./website.png";
 
-import resume from "./Cole McLean - Resume.pdf";
+import resume from "./McLean-Cole-Resume.pdf";
 
 export {
   python,
