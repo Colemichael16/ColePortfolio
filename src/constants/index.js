@@ -121,7 +121,7 @@ const experiences = [
     company_name: "Vizient Inc",
     icon: vizient,
     iconBg: "#E6DEDD",
-    date: "June 2025 - August 2025",
+    date: "June 2025 - Current",
     points: [
       "Developed an Application using Microsoft Power Apps & Power Automate",
       "Collaborated with cross-functional teams to gather requirements and design user-friendly interfaces.",
