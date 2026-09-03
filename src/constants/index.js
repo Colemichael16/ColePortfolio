@@ -116,22 +116,20 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "Corporate IT Intern (Application Developer)",
+    {
+    title: "Corporate IT Intern (Data & Endpoint Analytics)",
     company_name: "Vizient Inc",
     icon: vizient,
     iconBg: "#E6DEDD",
-    date: "June 2025 - August 2025 & June 2026 - August 2026",
+    date: "June 2026 - August 2026",
     points: [
-      "Developed an Application using Microsoft Power Apps & Power Automate",
-      "Collaborated with cross-functional teams to gather requirements and design user-friendly interfaces.",
-      "Developed a system to transfer data between SQL Server and Sharepoint using Power Automate",
-      "Finished documentation and user training materials for the application.",
-      "Published V1 of the application to the company intranet. Titled 'Product Toolbox'",
-      "Product Toolbox is a public database for users to find approved and unapproved applications within the company."
+      "Analyzed endpoint performance telemetry across the enterprise device fleet in Nexthink to identify root causes of degraded device performance.",
+      "Built scripts and automated remote actions in the Nexthink platform to remediate endpoint issues, reducing help desk ticket volume.",
+      "Developed dashboards surfacing device health and performance trends for IT leadership, turning raw telemetry into actionable reporting.",
+      "Partnered with service desk staff to translate recurring ticket patterns into detection logic and automation targets."
     ],
   },
-  {
+    {
     title: "IT Help Desk and A/V Student Technician",
     company_name: "University of Colorado Boulder",
     icon: cu,
@@ -142,6 +140,18 @@ const experiences = [
       "Providing technical support to students, faculty, and staff, troubleshooting software and hardware",
       "Assisting with the deployment and maintenance of computer systems and peripherals.",
       "Collaborating with team members to address technical issues and improve IT services for the campus community.",
+    ],
+  },
+  {
+    title: "Corporate IT Intern (Application Developer)",
+    company_name: "Vizient Inc",
+    icon: vizient,
+    iconBg: "#E6DEDD",
+    date: "June 2025 - August 2025",
+    points: [
+      "Engineered full-cycle application development of the Product Toolbox over a 12-week internship, leveraging Microsoft Power Apps, Power Automate, SQL Server, and SharePoint to streamline process automation.",
+      "Automated data transfer workflows between SQL Server and SharePoint using Power Automate, improving efficiency and accuracy.",
+      "Authored documentation and training materials to support adoption and maintainability, publishing V1 to the company intranet."
     ],
   },
   {
